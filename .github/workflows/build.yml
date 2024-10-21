@@ -11,7 +11,7 @@ on:
 jobs:
   release:
     name: Build Website
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
 
     steps:
       # 检出 Git 仓库
